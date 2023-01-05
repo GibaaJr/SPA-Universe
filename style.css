@@ -83,7 +83,7 @@ main #app .content.universe h1 {
 }
 
 
-main #app .content button {
+main #app .content button{
     width: 20rem;
     
     background: none;
@@ -98,6 +98,11 @@ main #app .content button {
     font-weight: bold;  
     color: white;
     cursor: pointer;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
 }
 
 main #app .content p {
