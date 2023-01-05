@@ -37,7 +37,7 @@ nav ul {
     align-items: center;
 }
 
-nav ul li {
+nav ul li a {
     text-decoration: none;
     color: #C4C4CC;
     font-size: 2.4rem;
@@ -48,8 +48,8 @@ nav ul li {
 
 
 
-nav ul li.active,
-nav ul li:hover {
+nav ul li.active a,
+nav ul li a:hover {
     font-weight: bold;
     color: white;
 }
